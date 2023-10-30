@@ -1,0 +1,261 @@
+/*
+Application Settings Go Here
+------------------------------------
+This file acts as a bundler for all variables/mixins/themes, so they
+can easily be swapped out without `core.scss` ever having to know.
+
+For example:
+
+@import './variables/colors';
+@import './variables/components';
+@import './themes/default';
+*/
+/*Font in ordine di grandezza*/
+/***********************************
+   * F-size-5
+   ***********************************/
+
+   @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/MaterialIcons-Regular.eot'); /* For IE6-8 */
+    src: local('Material Icons'),
+         local('MaterialIcons-Regular'),
+         url('./fonts/MaterialIcons-Regular.woff2') format('woff2'),
+         url('./fonts/MaterialIcons-Regular.woff') format('woff'),
+         url('./fonts/MaterialIcons-Regular.ttf') format('truetype');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+   .f-size-5 {
+    font-size: 1.80203rem;
+    font-family: "Roboto"; }
+    .f-size-5 label, .f-size-5 input, .f-size-5 span {
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  
+  /***********************************
+     * F-size-4
+     ***********************************/
+  .f-size-4 {
+    font-size: 1.60181rem;
+    font-family: "Roboto"; }
+    .f-size-4 label, .f-size-4 input, .f-size-4 span {
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  
+  /***********************************
+     * F-size-3
+     ***********************************/
+  .f-size-3 {
+    font-size: 1.42383rem;
+    font-family: "Roboto"; }
+    .f-size-3 label, .f-size-3 input, .f-size-3 span {
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  
+  /***********************************
+     * F-size-2
+     ***********************************/
+  .f-size-2 {
+    font-size: 1.26563rem;
+    font-family: "Roboto"; }
+    .f-size-2 label, .f-size-2 input, .f-size-2 span {
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  
+  /***********************************
+     * F-size-1
+     ***********************************/
+  .f-size-1 {
+    font-size: 1.125rem;
+    font-family: "Roboto"; }
+    .f-size-1 label, .f-size-1 input, .f-size-1 span {
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  
+  /***********************************
+     * F-size-11
+     ***********************************/
+  .f-11 {
+    font-size: 11px;
+    font-family: "Roboto"; }
+    .f-11 label, .f-11 input, .f-11 span {
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  
+  /***********************************
+     * F-size-12
+     ***********************************/
+  .f-12 {
+    font-size: 12px;
+    font-family: "Roboto"; }
+    .f-12 label, .f-12 input, .f-12 span {
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  
+  /***********************************
+     * F-size-13
+     ***********************************/
+  .f-13 {
+    font-size: 13px;
+    font-family: "Roboto"; }
+    .f-13 label, .f-13 input, .f-13 span {
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  
+  /***********************************
+     * F-size-14
+     ***********************************/
+  .f-14 {
+    font-size: 14px;
+    font-family: "Roboto"; }
+    .f-14 label, .f-14 input, .f-14 span {
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  
+  /***********************************
+     * F-size-15
+     ***********************************/
+  .f-15 {
+    font-size: 15px;
+    font-family: "Roboto"; }
+    .f-15 label, .f-15 input, .f-15 span {
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  
+  /***********************************
+     * F-size-16
+     ***********************************/
+  .f-16 {
+    font-size: 16px;
+    font-family: "Roboto"; }
+    .f-16 label, .f-16 input, .f-16 span {
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  
+  /***********************************
+     * F-size-23
+     ***********************************/
+  .f-23 {
+    font-size: 23px;
+    font-family: "Roboto"; }
+    .f-23 label, .f-23 input, .f-23 span {
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  
+  .f-input-label-active-14, .search-container .f-input-label-active-14 {
+    font-size: 10.5px; }
+  
+  /**************************
+    * font-decoration
+    **************************/
+  .f-bold {
+    font-weight: 500 !important; }
+  
+  .f-italic {
+    font-style: italic !important; }
+  
+  /*************************
+    * font-color
+    *************************/
+  .f-primary {
+    color: #535353 !important; }
+  
+  .f-secondary {
+    color: #595151 !important; }
+
+  .f-third{
+    color:#a6a6a6 !important;
+  }
+  
+  .f-logo-blue {
+    color: #173f63 !important; }
+  
+  .f-logo-yellow {
+    color: #f9b93e !important; }
+  
+  .f-red {
+    color: #f44336 !important; }
+  
+  /*********************
+        BUTTON IMAGE
+    *********************/
+  /***************
+      LIST ITEM
+    ****************/
+  /**************
+      INDICATORS CAROUSEL
+    ***************/
+  /**************
+     CAPITALIZE
+    ***************/
+  .f-capitalize {
+    text-transform: capitalize; }
+  
+  html {
+    box-sizing: border-box; }
+  
+  html,
+  body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%; }
+  
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  
+  .app-content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 62px; }
+  
+  *:focus {
+    outline: 0;
+    outline: none; }
+  

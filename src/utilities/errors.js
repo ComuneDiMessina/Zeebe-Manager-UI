@@ -1,0 +1,31 @@
+
+
+const ERRORS = {
+  GENERIC: {
+    BAD_REQUEST:400,
+    SERVER_FAULT: 0,
+    NOT_AVAILABLE: 1,
+    NO_NETWORK: 2,
+    NO_NETWORK_NO_AUTH: 3
+  },
+  LOGIN: {
+    NOT_COMPLETE: 10,
+    UNAUTHORIZED: 11,
+    RESPONSE_NOT_COMPLETE: 12,
+    REFRESH: 13
+  },
+  SEARCH: {
+    INVALID_INPUT: 20,
+    NOT_FOUND: 21
+  },
+  INSERT: {
+      INVALID_INSERT: 30,
+
+  },
+  LIST: {
+    SERVER_ERROR: 40, 
+    NO_DATA: 41
+  }
+}
+
+export default ERRORS;
